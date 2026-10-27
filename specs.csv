@@ -1,0 +1,52 @@
+platform,platform_name_en,region,slot,rule_id,label_en,width,height,aspect,min_width,max_kb,background,formats,source_url
+taobao,Taobao & Tmall,cn,main,white-800,White background image (square),800,800,1:1,800,,white,jpg|png,https://www.shuaishou.com/ask/48967.html
+taobao,Taobao & Tmall,cn,main,long-750,Tall portrait main image,750,1000,3:4,,,any,jpg|png,https://www.zhihu.com/question/511213904/answer/2319549362
+jd,JD.com,cn,main,main-800,Main product image,800,800,1:1,,,white,jpg|png,https://zhuanlan.zhihu.com/p/143860300
+jd,JD.com,cn,banner,shophead-1920-120,PC store header,1920,120,16:1,,,any,jpg|png,https://zhuanlan.zhihu.com/p/143860300
+jd,JD.com,cn,banner,shophead-1920-150,PC store header (taller variant),1920,150,64:5,,,any,jpg|png,https://zhuanlan.zhihu.com/p/143860300
+pinduoduo,Pinduoduo,cn,main,main-800,Main product image,800,800,1:1,,2048,any,jpg|png,https://www.toutiao.com/w/1830671900672010/
+pinduoduo,Pinduoduo,cn,sku,sku-480,SKU / carousel preview image,480,480,1:1,480,3072,any,jpg|png,https://www.shuaishou.com/school/infos44523.html
+pinduoduo,Pinduoduo,cn,banner,home-750-352,Homepage banner,750,352,375:176,,100,white,jpg|png,https://www.toutiao.com/w/1830671900672010/
+pinduoduo,Pinduoduo,cn,thumb,order-200,Order list thumbnail,200,200,1:1,,32,any,jpg|png,https://www.toutiao.com/w/1830671900672010/
+douyin,Douyin Shop,cn,main,main-600,Main product image (1:1),600,600,1:1,600,5120,any,jpg|jpeg|png,https://school.jinritemai.com/doudian/web/articlev0/101669
+douyin,Douyin Shop,cn,main,white-800,White background image,800,800,1:1,600,5120,white,jpg|jpeg|png,https://www.zhihu.com/question/511213904/answer/2319549362
+douyin,Douyin Shop,cn,detail,detail-750,Detail image,750,1000,3:4,,5120,any,jpg|jpeg|png,https://school.jinritemai.com/doudian/web/articlev0/101669
+kuaishou,Kuaishou Shop,cn,main,main-600,Main product image,600,600,1:1,600,,any,jpg|jpeg|png,https://www.shuaishou.com/school/infos56518.html
+kuaishou,Kuaishou Shop,cn,sku,white-800,White background product image,800,800,1:1,,2048,white,jpg|jpeg|png,https://www.shuaishou.com/school/infos56518.html
+1688,1688,cn,main,main-750,Main product image,750,750,1:1,750,,any,jpg|png,https://rulechannel.1688.com/?type=detail&ruleId=2812&cId=null&spm=null
+1688,1688,cn,thumb,logo-200,Brand logo on the main image,200,200,1:1,,,transparent,png,https://rulechannel.1688.com/?type=detail&ruleId=2812&cId=null&spm=null
+wechat-store,WeChat Store,cn,main,main-600,Real product photo (1:1),600,600,1:1,600,1024,any,jpg|jpeg|png,https://store.weixin.qq.com/chengzhang/webdoc/wiki/968/c21c4b4a68bcd7de/growth_center_rule_for_store
+youzan,Youzan,cn,banner,nav-title-224,Top navigation title image,224,88,28:11,,,any,png,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,thumb,elevator-72,Elevator navigation icon (image with text),72,72,1:1,,,any,png,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,thumb,elevator-100,Elevator navigation icon (image only),100,100,1:1,,,any,png,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,banner,shop-info-370,"Store info card, styles 1-3",750,370,75:37,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,banner,shop-info-300,"Store info card, style 4",750,300,5:2,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,banner,shop-info-500,"Store info card, style 5",750,500,3:2,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,thumb,fans-entry-100,Follower growth entry image,100,100,1:1,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,poster,member-free-1040,Free membership card background image,1040,430,104:43,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,poster,member-paid-1040,Paid membership card background image,1040,650,8:5,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,thumb,share-icon-200,Share icon,200,200,1:1,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,poster,share-cover-750,Share cover image,750,600,5:4,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,banner,profile-bg-960,Profile page background image,960,660,16:11,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,poster,hotzone-750,Clickable hotspot image,750,1000,3:4,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11718
+youzan,Youzan,cn,main,main-800,Main product image,800,800,1:1,,,any,png|jpg,https://help.youzan.com/displaylist/detail_4_4-2-11754
+amazon,Amazon,global,main,main-min-500,Main product image (minimum side),500,500,1:1,500,,white,jpg|png,https://sellercentral.amazon.in/help/hub/reference/external/G1881
+amazon,Amazon,global,main,main-zoom-1000,Main product image (zoom enabled),1000,1000,1:1,1000,,white,jpg|png,https://sellercentral.amazon.in/help/hub/reference/external/G1881
+amazon,Amazon,global,main,main-max-10000,Main product image (maximum side),10000,10000,1:1,,,white,jpg|png,https://sellercentral.amazon.in/help/hub/reference/external/G1881
+walmart,Walmart,global,main,main-2000,Main product image (recommended),2000,2000,1:1,,,white,jpg|png,https://zhuanlan.zhihu.com/p/479109564
+walmart,Walmart,global,main,main-1000,Main product image (smallest zoomable),1000,1000,1:1,1000,,white,jpg|png,https://zhuanlan.zhihu.com/p/479109564
+walmart,Walmart,global,main,main-1500-2000,"Main product image (portrait, zoomable)",1500,2000,3:4,,,white,jpg|png,https://zhuanlan.zhihu.com/p/479109564
+walmart,Walmart,global,sku,swatch-100,Variant swatch image,100,100,1:1,,,any,jpg|png,https://zhuanlan.zhihu.com/p/479109564
+shopify,Shopify,global,main,main-2048,Product image (recommended square),2048,2048,1:1,,20480,any,jpg|png,https://help.shopify.com/en/manual/products/product-media/product-media-types
+shopify,Shopify,global,main,main-max-5000,Product image (size limit),5000,5000,1:1,,20480,any,jpg|png,https://help.shopify.com/en/manual/products/product-media/product-media-types
+shopify,Shopify,global,cover,video-4k,Product video (4K),4096,2160,256:135,,,any,mp4,https://help.shopify.com/en/manual/products/product-media/product-media-types
+ebay,eBay,global,main,main-1600,Listing image (maximum side),1600,1600,1:1,,,any,jpg|png,https://www.amz123.com/guide/ebay/6Hi2PFnT
+ebay,eBay,global,main,main-500,Listing image (minimum side),500,500,1:1,500,,any,jpg|png,https://www.amz123.com/guide/ebay/6Hi2PFnT
+aliexpress,AliExpress,global,main,main-800,Main product image,800,800,1:1,800,,white,jpg|jpeg|png,https://www.amz123.com/ask/pJlqb3Qj
+temu,Temu,global,main,carousel-800,Carousel image (1:1),800,800,1:1,800,2048,white,jpg|png,https://zhuanlan.zhihu.com/p/706291691
+shopee,Shopee,global,main,main-800,Main product image,800,800,1:1,800,2048,any,jpg|jpeg|png,https://blog.csdn.net/shopeedata/article/details/124382260
+lazada,Lazada,global,main,main-800,Main product image,800,800,1:1,800,,white,jpg|png,https://zhuanlan.zhihu.com/p/443625733
+shein,SHEIN,global,main,main-800-1000,Main product image,800,1000,4:5,,,white,jpg|png,https://www.kchuhai.com/report/view-57778.html
+shein,SHEIN,global,detail,detail-800,Detail image,800,800,1:1,,,any,jpg|png,https://www.kchuhai.com/report/view-57778.html
+shein,SHEIN,global,thumb,thumb-200,List thumbnail,200,200,1:1,,,any,jpg|png,https://www.kchuhai.com/report/view-57778.html
+tiktok-shop,TikTok Shop,global,main,main-800,Main product image,800,800,1:1,800,,white,jpg|png,https://www.cifnews.com/help/vzrgo

@@ -1,0 +1,1213 @@
+{
+  "version": "1",
+  "generatedAt": "2026-10-25",
+  "license": "Data compiled by Tugui (https://tugui.top). Facts are quoted from platform documentation or public seller guides; check the linked source before relying on a number.",
+  "source": "https://tugui.top/platforms/",
+  "platforms": [
+    {
+      "id": "taobao",
+      "name": "淘宝 / 天猫",
+      "nameEn": "Taobao & Tmall",
+      "region": "cn",
+      "homepage": "https://www.taobao.com",
+      "summaryEn": "Taobao asks for a square white background image at 800×800 with the product filling most of the frame; apparel and other categories can add a 3:4 portrait main image.",
+      "sourceUrl": "https://www.shuaishou.com/ask/48967.html",
+      "rules": [
+        {
+          "id": "white-800",
+          "slot": "main",
+          "labelEn": "White background image (square)",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Must be a square",
+            "The product itself must be larger than 300×300"
+          ],
+          "sourceUrl": "https://www.shuaishou.com/ask/48967.html"
+        },
+        {
+          "id": "long-750",
+          "slot": "main",
+          "labelEn": "Tall portrait main image",
+          "width": 750,
+          "height": 1000,
+          "aspect": "3:4",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "3:4 portrait main image (750×1000)",
+            "Industry practice, not an official platform announcement"
+          ],
+          "sourceUrl": "https://www.zhihu.com/question/511213904/answer/2319549362"
+        }
+      ]
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "nameEn": "JD.com",
+      "region": "cn",
+      "homepage": "https://www.jd.com",
+      "summaryEn": "JD.com's product main image defaults to 800×800 square; the PC store header is 1920 px wide, the PC homepage column is 990 px, and full-width banners run at 1920 px.",
+      "sourceUrl": "https://zhuanlan.zhihu.com/p/143860300",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Main image defaults to 800×800",
+            "The first image needs a pure white background"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/143860300"
+        },
+        {
+          "id": "shophead-1920-120",
+          "slot": "banner",
+          "labelEn": "PC store header",
+          "width": 1920,
+          "height": 120,
+          "aspect": "16:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Store header is 1920×120",
+            "Full-width banner width is 1920"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/143860300"
+        },
+        {
+          "id": "shophead-1920-150",
+          "slot": "banner",
+          "labelEn": "PC store header (taller variant)",
+          "width": 1920,
+          "height": 150,
+          "aspect": "64:5",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Store header is also available at 1920×150"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/143860300"
+        }
+      ]
+    },
+    {
+      "id": "pinduoduo",
+      "name": "拼多多",
+      "nameEn": "Pinduoduo",
+      "region": "cn",
+      "homepage": "https://www.pinduoduo.com",
+      "summaryEn": "Pinduoduo takes an 800×800 square main image, a 750×352 landscape homepage banner and a 200×200 order list thumbnail, each with its own file size cap.",
+      "sourceUrl": "https://www.toutiao.com/w/1830671900672010/",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": 2048,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 at 1:1 recommended",
+            "File size up to 2MB"
+          ],
+          "sourceUrl": "https://www.toutiao.com/w/1830671900672010/"
+        },
+        {
+          "id": "sku-480",
+          "slot": "sku",
+          "labelEn": "SKU / carousel preview image",
+          "width": 480,
+          "height": 480,
+          "aspect": "1:1",
+          "minWidth": 480,
+          "maxKB": 3072,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Width and height both at least 480px",
+            "Under 3MB"
+          ],
+          "sourceUrl": "https://www.shuaishou.com/school/infos44523.html"
+        },
+        {
+          "id": "home-750-352",
+          "slot": "banner",
+          "labelEn": "Homepage banner",
+          "width": 750,
+          "height": 352,
+          "aspect": "375:176",
+          "minWidth": null,
+          "maxKB": 100,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Pure white background",
+            "Within 100KB, up to 10 images"
+          ],
+          "sourceUrl": "https://www.toutiao.com/w/1830671900672010/"
+        },
+        {
+          "id": "order-200",
+          "slot": "thumb",
+          "labelEn": "Order list thumbnail",
+          "width": 200,
+          "height": 200,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": 32,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "200×200",
+            "Within 32KB"
+          ],
+          "sourceUrl": "https://www.toutiao.com/w/1830671900672010/"
+        }
+      ]
+    },
+    {
+      "id": "douyin",
+      "name": "抖音小店",
+      "nameEn": "Douyin Shop",
+      "region": "cn",
+      "homepage": "https://www.jinritemai.com",
+      "summaryEn": "Douyin Shop requires a 1:1 main image of at least 600×600 plus a separate pure white background image, and detail images 620-1290 px wide and under 2000 px tall.",
+      "sourceUrl": "https://school.jinritemai.com/doudian/web/articlev0/101669",
+      "rules": [
+        {
+          "id": "main-600",
+          "slot": "main",
+          "labelEn": "Main product image (1:1)",
+          "width": 600,
+          "height": 600,
+          "aspect": "1:1",
+          "minWidth": 600,
+          "maxKB": 5120,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "Must be 1:1",
+            "At least 600×600, 5MB or less"
+          ],
+          "sourceUrl": "https://school.jinritemai.com/doudian/web/articlev0/101669"
+        },
+        {
+          "id": "white-800",
+          "slot": "main",
+          "labelEn": "White background image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 600,
+          "maxKB": 5120,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "Pure white background, single subject",
+            "800×800 recommended"
+          ],
+          "sourceUrl": "https://www.zhihu.com/question/511213904/answer/2319549362"
+        },
+        {
+          "id": "detail-750",
+          "slot": "detail",
+          "labelEn": "Detail image",
+          "width": 750,
+          "height": 1000,
+          "aspect": "3:4",
+          "minWidth": null,
+          "maxKB": 5120,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "Official recommendation: width 620-1290",
+            "Height must be under 2000px"
+          ],
+          "sourceUrl": "https://school.jinritemai.com/doudian/web/articlev0/101669"
+        }
+      ]
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手小店",
+      "nameEn": "Kuaishou Shop",
+      "region": "cn",
+      "homepage": "https://www.kwaixiaodian.com",
+      "summaryEn": "Kuaishou Shop needs product images of at least 600×600 at a recommended 1:1, a separate white background image at 800×800, and accepts transparent images as PNG only.",
+      "sourceUrl": "https://www.shuaishou.com/school/infos56518.html",
+      "rules": [
+        {
+          "id": "main-600",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 600,
+          "height": 600,
+          "aspect": "1:1",
+          "minWidth": 600,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "At least 600×600",
+            "1:1 square recommended"
+          ],
+          "sourceUrl": "https://www.shuaishou.com/school/infos56518.html"
+        },
+        {
+          "id": "white-800",
+          "slot": "sku",
+          "labelEn": "White background product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": 2048,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 recommended, 2MB or less",
+            "Transparent images must be PNG"
+          ],
+          "sourceUrl": "https://www.shuaishou.com/school/infos56518.html"
+        }
+      ]
+    },
+    {
+      "id": "1688",
+      "name": "1688",
+      "nameEn": "1688",
+      "region": "cn",
+      "homepage": "https://www.1688.com",
+      "summaryEn": "1688 requires all 5 main image slots to hold real product photos of at least 750×750 px each, with the brand logo in the top-left corner at no more than 200×200.",
+      "sourceUrl": "https://rulechannel.1688.com/?type=detail&ruleId=2812&cId=null&spm=null",
+      "rules": [
+        {
+          "id": "main-750",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 750,
+          "height": 750,
+          "aspect": "1:1",
+          "minWidth": 750,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Each image at least 750×750",
+            "All 5 main image slots must hold real product photos"
+          ],
+          "sourceUrl": "https://rulechannel.1688.com/?type=detail&ruleId=2812&cId=null&spm=null"
+        },
+        {
+          "id": "logo-200",
+          "slot": "thumb",
+          "labelEn": "Brand logo on the main image",
+          "width": 200,
+          "height": 200,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "transparent",
+          "formats": [
+            "png"
+          ],
+          "notesEn": [
+            "Placed in the top-left corner of the main image",
+            "Must not exceed 200×200 px"
+          ],
+          "sourceUrl": "https://rulechannel.1688.com/?type=detail&ruleId=2812&cId=null&spm=null"
+        }
+      ]
+    },
+    {
+      "id": "wechat-store",
+      "name": "微信小店",
+      "nameEn": "WeChat Store",
+      "region": "cn",
+      "homepage": "https://store.weixin.qq.com",
+      "summaryEn": "WeChat Store's rule center requires real product photos of at least 600×600 at a recommended 1:1, and caps a single image at 1MB in png, jpg or jpeg.",
+      "sourceUrl": "https://store.weixin.qq.com/chengzhang/webdoc/wiki/968/c21c4b4a68bcd7de/growth_center_rule_for_store",
+      "rules": [
+        {
+          "id": "main-600",
+          "slot": "main",
+          "labelEn": "Real product photo (1:1)",
+          "width": 600,
+          "height": 600,
+          "aspect": "1:1",
+          "minWidth": 600,
+          "maxKB": 1024,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "At least 600×600",
+            "1:1 recommended, 1MB or less per image"
+          ],
+          "sourceUrl": "https://store.weixin.qq.com/chengzhang/webdoc/wiki/968/c21c4b4a68bcd7de/growth_center_rule_for_store"
+        }
+      ]
+    },
+    {
+      "id": "youzan",
+      "name": "有赞",
+      "nameEn": "Youzan",
+      "region": "cn",
+      "homepage": "https://www.youzan.com",
+      "summaryEn": "Youzan splits specs by mini page component: product images are recommended at 800×800, decoration images get a recommended pixel size per component, and 750 is the usual width baseline.",
+      "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718",
+      "rules": [
+        {
+          "id": "nav-title-224",
+          "slot": "banner",
+          "labelEn": "Top navigation title image",
+          "width": 224,
+          "height": 88,
+          "aspect": "28:11",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png"
+          ],
+          "notesEn": [
+            "PNG format",
+            "Official recommendation: 224×88"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "elevator-72",
+          "slot": "thumb",
+          "labelEn": "Elevator navigation icon (image with text)",
+          "width": 72,
+          "height": 72,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png"
+          ],
+          "notesEn": [
+            "PNG, square",
+            "The image-only type needs 100×100"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "elevator-100",
+          "slot": "thumb",
+          "labelEn": "Elevator navigation icon (image only)",
+          "width": 100,
+          "height": 100,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png"
+          ],
+          "notesEn": [
+            "PNG, square",
+            "Uploading at 72×72 looks blurry"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "shop-info-370",
+          "slot": "banner",
+          "labelEn": "Store info card, styles 1-3",
+          "width": 750,
+          "height": 370,
+          "aspect": "75:37",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Official recommendation: 750×370",
+            "Mismatched dimensions get stretched"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "shop-info-300",
+          "slot": "banner",
+          "labelEn": "Store info card, style 4",
+          "width": 750,
+          "height": 300,
+          "aspect": "5:2",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Official recommendation: 750×300"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "shop-info-500",
+          "slot": "banner",
+          "labelEn": "Store info card, style 5",
+          "width": 750,
+          "height": 500,
+          "aspect": "3:2",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Official recommendation: 750×500"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "fans-entry-100",
+          "slot": "thumb",
+          "labelEn": "Follower growth entry image",
+          "width": 100,
+          "height": 100,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Square, 100×100"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "member-free-1040",
+          "slot": "poster",
+          "labelEn": "Free membership card background image",
+          "width": 1040,
+          "height": 430,
+          "aspect": "104:43",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Free membership: 1040×430"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "member-paid-1040",
+          "slot": "poster",
+          "labelEn": "Paid membership card background image",
+          "width": 1040,
+          "height": 650,
+          "aspect": "8:5",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Paid membership: 1040×650"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "share-icon-200",
+          "slot": "thumb",
+          "labelEn": "Share icon",
+          "width": 200,
+          "height": 200,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Square, 200×200"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "share-cover-750",
+          "slot": "poster",
+          "labelEn": "Share cover image",
+          "width": 750,
+          "height": 600,
+          "aspect": "5:4",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "750×600"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "profile-bg-960",
+          "slot": "banner",
+          "labelEn": "Profile page background image",
+          "width": 960,
+          "height": 660,
+          "aspect": "16:11",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Must be uploaded at 960×660",
+            "The admin panel warns that 750×344 will be stretched"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "hotzone-750",
+          "slot": "poster",
+          "labelEn": "Clickable hotspot image",
+          "width": 750,
+          "height": 1000,
+          "aspect": "3:4",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Width 750",
+            "Height up to 1000 px"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11718"
+        },
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "png",
+            "jpg"
+          ],
+          "notesEn": [
+            "Official recommendation: 800×800",
+            "Up to 15 product images"
+          ],
+          "sourceUrl": "https://help.youzan.com/displaylist/detail_4_4-2-11754"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "nameEn": "Amazon",
+      "region": "global",
+      "homepage": "https://www.amazon.com",
+      "summaryEn": "Amazon product images need a longest side between 500 and 10000 px, 1000 px or more on the main product image unlocks zoom, and the background must be pure white.",
+      "sourceUrl": "https://sellercentral.amazon.in/help/hub/reference/external/G1881",
+      "rules": [
+        {
+          "id": "main-min-500",
+          "slot": "main",
+          "labelEn": "Main product image (minimum side)",
+          "width": 500,
+          "height": 500,
+          "aspect": "1:1",
+          "minWidth": 500,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Longest side at least 500 px",
+            "Images below 500 pixels on the longest side cannot be uploaded"
+          ],
+          "sourceUrl": "https://sellercentral.amazon.in/help/hub/reference/external/G1881"
+        },
+        {
+          "id": "main-zoom-1000",
+          "slot": "main",
+          "labelEn": "Main product image (zoom enabled)",
+          "width": 1000,
+          "height": 1000,
+          "aspect": "1:1",
+          "minWidth": 1000,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "1000 px or larger enables zoom",
+            "The main product image must have a pure white background"
+          ],
+          "sourceUrl": "https://sellercentral.amazon.in/help/hub/reference/external/G1881"
+        },
+        {
+          "id": "main-max-10000",
+          "slot": "main",
+          "labelEn": "Main product image (maximum side)",
+          "width": 10000,
+          "height": 10000,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Longest side limited to 10000 px"
+          ],
+          "sourceUrl": "https://sellercentral.amazon.in/help/hub/reference/external/G1881"
+        }
+      ]
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "nameEn": "Walmart",
+      "region": "global",
+      "homepage": "https://marketplace.walmart.com",
+      "summaryEn": "Walmart recommends product images of 2000×2000 or larger, 1000×1000 is the smallest size that still zooms, and variant swatches are listed at 100×100 via image URL.",
+      "sourceUrl": "https://zhuanlan.zhihu.com/p/479109564",
+      "rules": [
+        {
+          "id": "main-2000",
+          "slot": "main",
+          "labelEn": "Main product image (recommended)",
+          "width": 2000,
+          "height": 2000,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "2000×2000 or larger recommended"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/479109564"
+        },
+        {
+          "id": "main-1000",
+          "slot": "main",
+          "labelEn": "Main product image (smallest zoomable)",
+          "width": 1000,
+          "height": 1000,
+          "aspect": "1:1",
+          "minWidth": 1000,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "1000×1000 is the smallest zoomable size"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/479109564"
+        },
+        {
+          "id": "main-1500-2000",
+          "slot": "main",
+          "labelEn": "Main product image (portrait, zoomable)",
+          "width": 1500,
+          "height": 2000,
+          "aspect": "3:4",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "1500×2000 or larger recommended",
+            "This size supports zoom"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/479109564"
+        },
+        {
+          "id": "swatch-100",
+          "slot": "sku",
+          "labelEn": "Variant swatch image",
+          "width": 100,
+          "height": 100,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Variant swatch at 100×100",
+            "Must be listed via image URL"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/479109564"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "nameEn": "Shopify",
+      "region": "global",
+      "homepage": "https://www.shopify.com",
+      "summaryEn": "Shopify caps product media at 5000×5000 px or 25 megapixels and 20MB per file, recommends 2048×2048 for square product images, and accepts video up to 4K.",
+      "sourceUrl": "https://help.shopify.com/en/manual/products/product-media/product-media-types",
+      "rules": [
+        {
+          "id": "main-2048",
+          "slot": "main",
+          "labelEn": "Product image (recommended square)",
+          "width": 2048,
+          "height": 2048,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": 20480,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "2048×2048 recommended for square product images"
+          ],
+          "sourceUrl": "https://help.shopify.com/en/manual/products/product-media/product-media-types"
+        },
+        {
+          "id": "main-max-5000",
+          "slot": "main",
+          "labelEn": "Product image (size limit)",
+          "width": 5000,
+          "height": 5000,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": 20480,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Up to 5000×5000 or 25MP",
+            "Each file must be under 20MB"
+          ],
+          "sourceUrl": "https://help.shopify.com/en/manual/products/product-media/product-media-types"
+        },
+        {
+          "id": "video-4k",
+          "slot": "cover",
+          "labelEn": "Product video (4K)",
+          "width": 4096,
+          "height": 2160,
+          "aspect": "256:135",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "mp4"
+          ],
+          "notesEn": [
+            "Video resolution up to 4K",
+            "That is 4096×2160"
+          ],
+          "sourceUrl": "https://help.shopify.com/en/manual/products/product-media/product-media-types"
+        }
+      ]
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "nameEn": "eBay",
+      "region": "global",
+      "homepage": "https://www.ebay.com",
+      "summaryEn": "eBay listing images need a longest side between 500 and 1600 px, and the main image must carry no borders or text. File-size limits vary between sources; check the limit shown in your seller dashboard.",
+      "sourceUrl": "https://www.amz123.com/guide/ebay/6Hi2PFnT",
+      "rules": [
+        {
+          "id": "main-1600",
+          "slot": "main",
+          "labelEn": "Listing image (maximum side)",
+          "width": 1600,
+          "height": 1600,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Longest side limited to 1600 px",
+            "The file size limit is whatever your seller dashboard shows"
+          ],
+          "sourceUrl": "https://www.amz123.com/guide/ebay/6Hi2PFnT"
+        },
+        {
+          "id": "main-500",
+          "slot": "main",
+          "labelEn": "Listing image (minimum side)",
+          "width": 500,
+          "height": 500,
+          "aspect": "1:1",
+          "minWidth": 500,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "Longest side at least 500 px"
+          ],
+          "sourceUrl": "https://www.amz123.com/guide/ebay/6Hi2PFnT"
+        }
+      ]
+    },
+    {
+      "id": "aliexpress",
+      "name": "AliExpress 速卖通",
+      "nameEn": "AliExpress",
+      "region": "global",
+      "homepage": "https://www.aliexpress.com",
+      "summaryEn": "AliExpress requires an 800×800 square main product image in JPG, JPEG or PNG. The widely quoted file-size limit appears outdated; check your seller dashboard.",
+      "sourceUrl": "https://www.amz123.com/ask/pJlqb3Qj",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 square",
+            "File size limits differ by site; use the one your seller dashboard shows"
+          ],
+          "sourceUrl": "https://www.amz123.com/ask/pJlqb3Qj"
+        }
+      ]
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "nameEn": "Temu",
+      "region": "global",
+      "homepage": "https://www.temu.com",
+      "summaryEn": "Temu carousel images need 1:1 with both sides over 800 px and at most 2MB each, and every product carries 5 to 10 of them.",
+      "sourceUrl": "https://zhuanlan.zhihu.com/p/706291691",
+      "rules": [
+        {
+          "id": "carousel-800",
+          "slot": "main",
+          "labelEn": "Carousel image (1:1)",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": 2048,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "1:1, both sides over 800px",
+            "2MB or less each, 5-10 images"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/706291691"
+        }
+      ]
+    },
+    {
+      "id": "shopee",
+      "name": "Shopee 虾皮",
+      "nameEn": "Shopee",
+      "region": "global",
+      "homepage": "https://shopee.cn",
+      "summaryEn": "Shopee wants a main image of 800×800 px or larger, ideally 1:1, up to 2MB each, with a maximum of 9 images per product.",
+      "sourceUrl": "https://blog.csdn.net/shopeedata/article/details/124382260",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": 2048,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "jpeg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 or larger",
+            "1:1, 2MB or less, up to 9 images"
+          ],
+          "sourceUrl": "https://blog.csdn.net/shopeedata/article/details/124382260"
+        }
+      ]
+    },
+    {
+      "id": "lazada",
+      "name": "Lazada",
+      "nameEn": "Lazada",
+      "region": "global",
+      "homepage": "https://www.lazada.com",
+      "summaryEn": "Lazada requires a main product image of 800×800 px or larger, shot on a white background. The widely quoted file-size limit appears outdated; check your seller dashboard.",
+      "sourceUrl": "https://zhuanlan.zhihu.com/p/443625733",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 or larger",
+            "File size limits differ by site; use the one your seller dashboard shows"
+          ],
+          "sourceUrl": "https://zhuanlan.zhihu.com/p/443625733"
+        }
+      ]
+    },
+    {
+      "id": "shein",
+      "name": "SHEIN",
+      "nameEn": "SHEIN",
+      "region": "global",
+      "homepage": "https://www.sheincorp.cn",
+      "summaryEn": "SHEIN recommends an 800×1000 portrait main image, 800×800 detail images and 200×200 list thumbnails.",
+      "sourceUrl": "https://www.kchuhai.com/report/view-57778.html",
+      "rules": [
+        {
+          "id": "main-800-1000",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 1000,
+          "aspect": "4:5",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "800×1000 portrait recommended"
+          ],
+          "sourceUrl": "https://www.kchuhai.com/report/view-57778.html"
+        },
+        {
+          "id": "detail-800",
+          "slot": "detail",
+          "labelEn": "Detail image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "800×800 recommended for detail images"
+          ],
+          "sourceUrl": "https://www.kchuhai.com/report/view-57778.html"
+        },
+        {
+          "id": "thumb-200",
+          "slot": "thumb",
+          "labelEn": "List thumbnail",
+          "width": 200,
+          "height": 200,
+          "aspect": "1:1",
+          "minWidth": null,
+          "maxKB": null,
+          "background": "any",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "200×200 recommended for thumbnails"
+          ],
+          "sourceUrl": "https://www.kchuhai.com/report/view-57778.html"
+        }
+      ]
+    },
+    {
+      "id": "tiktok-shop",
+      "name": "TikTok Shop",
+      "nameEn": "TikTok Shop",
+      "region": "global",
+      "homepage": "https://shop.tiktok.com",
+      "summaryEn": "TikTok Shop needs every product image to be at least 800×800 px, allows up to 9 square images per product, and caps a product video at 5MB.",
+      "sourceUrl": "https://www.cifnews.com/help/vzrgo",
+      "rules": [
+        {
+          "id": "main-800",
+          "slot": "main",
+          "labelEn": "Main product image",
+          "width": 800,
+          "height": 800,
+          "aspect": "1:1",
+          "minWidth": 800,
+          "maxKB": null,
+          "background": "white",
+          "formats": [
+            "jpg",
+            "png"
+          ],
+          "notesEn": [
+            "At least 800×800 per image",
+            "Square images, up to 9"
+          ],
+          "sourceUrl": "https://www.cifnews.com/help/vzrgo"
+        }
+      ]
+    }
+  ]
+}
